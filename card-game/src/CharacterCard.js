@@ -4,13 +4,3 @@ export default function CharacterCard(props) {
  <div>{props.value}</div>
  )
 }
-แก้ไขไฟล์ App.js
-import CharacterCard from './CharacterCard';
-function App() {
- return (
- <div>
- <CharacterCard value="h"/>
- <CharacterCard value="i"/>
- </div>
- );
-}
